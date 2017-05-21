@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<form method="post" action="classes.php">
+<div class="btn-group">
+<input type="submit" class="button" name="Log in" id="Log in" value="Log In" />
+<input type="submit" class="button" name="Create" id="Create" value="Create" />
+<input type="submit" class="button" name="List All" id="List All" value="List All" />
+<input type="submit" class="button" name="Search" id="Search" value="Search" />
+<select name="criteriaType"> 
+		<option value="Salary" checked>Salary</option>
+			<option value="Profession">Profession</option>
+		</select>
+<input type="text" name="Criteria" id="Criteria"/>
+</div>
+</form>
+</body>
+</html>
